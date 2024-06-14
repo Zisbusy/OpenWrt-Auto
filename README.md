@@ -9,11 +9,17 @@
 
 # 如何使用
 执行下面代码
-cd /home      
-git clone https://github.com/Zisbusy/OpenWrt-Auto.git      
-cd /OpenWrt-Auto      
-chmod 777 OpenWrtAuto.sh      
-./OpenWrtAuto.sh      
+```shell
+cd /home
+git clone https://github.com/Zisbusy/OpenWrt-Auto.git
+cd /OpenWrt-Auto
+chmod 777 OpenWrtAuto.sh
+```
+根据需求修改脚本 OpenWrtAuto.sh 如代理地址      
+```shell
+# 执行脚本
+./OpenWrtAuto.sh
+```
 
 # 说明  
 本固件高度自定义，贴近个人使用场景。      
