@@ -1,5 +1,5 @@
 # OpenWrt-Auto
-基于官方openwrt 编译 x86 固件
+基于官方 OpenWrt 编译 x86 固件
 自动化编译脚本，环境部署到编译完成。      
 
 # 脚本环境     
