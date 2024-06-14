@@ -10,15 +10,20 @@
 # 如何使用
 执行下面代码
 ```shell
-cd /home
-git clone https://github.com/Zisbusy/OpenWrt-Auto.git
-cd /OpenWrt-Auto
-chmod 777 OpenWrtAuto.sh
+git clone https://github.com/Zisbusy/OpenWrt-Auto.git /home
+chmod 777 /home/OpenWrt-Auto/OpenWrtAuto.sh
 ```
 根据需求修改脚本 OpenWrtAuto.sh 如代理地址      
 ```shell
 # 执行脚本
-./OpenWrtAuto.sh
+./home/OpenWrt-Auto/OpenWrtAuto.sh
+```
+
+清理本项目产生的所有文件      
+```shell
+# 执行脚本
+chmod 777 /home/OpenWrt-Auto/clean.sh
+./home/OpenWrt-Auto/clean.sh
 ```
 
 # 说明  
