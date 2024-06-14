@@ -3,4 +3,11 @@
 
 
 # 说明  
+本固件高度自定义，贴近个人使用场景。      
 包含基础上网功能，磁盘管理、挂载、docker、upnp、主题、ipv6
+
+
+# 使用的项目
+Docker **https://github.com/lisaac/luci-app-dockerman**      
+Argon **https://github.com/jerrykuku/luci-theme-argon**      
+Diskman **https://github.com/lisaac/luci-app-diskman**      
