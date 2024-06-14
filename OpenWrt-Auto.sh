@@ -63,8 +63,10 @@ cd /home/openwrt
 echo "允许 Root 用户编译"
 export FORCE_UNSAFE_CONFIGURE=1
 
-echo "开始编译 - 4线程"
-make -j4 V=s
+# 获取 CPU 核心数，开始编译
+num=`cat /proc/cpuinfo |grep processor  | wc -l` 
+echo "开始编译 - "$num"线程"
+make -j$num V=s
 
 # 计算时间并输出
 endTime=$(date +%Y%m%d-%H:%M:%S)
