@@ -10,6 +10,7 @@
 # 如何使用
 执行下面代码
 ```shell
+dnf -y install git
 git clone https://github.com/Zisbusy/OpenWrt-Auto.git /home
 chmod 777 /home/OpenWrt-Auto/OpenWrtAuto.sh
 ```
