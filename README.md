@@ -7,6 +7,14 @@
 高度理想化，无任何错误判断，需自行观察是否有错误日志。      
 需要自备代理软件，并修改脚本内 192.168.10.10 的地址（中国大陆地区以外的网络环境可以直接取消代理）
 
+# 如何使用
+执行下面代码
+cd /home      
+git clone https://github.com/Zisbusy/OpenWrt-Auto.git      
+cd /OpenWrt-Auto      
+chmod 777 OpenWrtAuto.sh      
+./OpenWrtAuto.sh      
+
 # 说明  
 本固件高度自定义，贴近个人使用场景。      
  - 基础上网功能（默认 OpenWrt 配置）
