@@ -11,7 +11,7 @@
 执行下面代码
 ```shell
 dnf -y install git
-git clone https://github.com/Zisbusy/OpenWrt-Auto.git /home
+git clone https://github.com/Zisbusy/OpenWrt-Auto.git /home/OpenWrt-Auto
 chmod 777 /home/OpenWrt-Auto/OpenWrtAuto.sh
 ```
 根据需求修改脚本 OpenWrtAuto.sh 如代理地址      
