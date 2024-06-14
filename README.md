@@ -12,19 +12,19 @@
 ```shell
 dnf -y install git
 git clone https://github.com/Zisbusy/OpenWrt-Auto.git /home/OpenWrt-Auto
-chmod 777 /home/OpenWrt-Auto/OpenWrtAuto.sh
+chmod 777 /home/OpenWrt-Auto/OpenWrt-Auto.sh
 ```
 根据需求修改脚本 OpenWrtAuto.sh 如代理地址      
 ```shell
 # 执行脚本
-./home/OpenWrt-Auto/OpenWrtAuto.sh
+sh /home/OpenWrt-Auto/OpenWrt-Auto.sh
 ```
 
 清理本项目产生的所有文件      
 ```shell
 # 执行脚本
 chmod 777 /home/OpenWrt-Auto/clean.sh
-./home/OpenWrt-Auto/clean.sh
+sh /home/OpenWrt-Auto/clean.sh
 ```
 
 # 说明  
