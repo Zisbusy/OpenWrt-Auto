@@ -54,7 +54,7 @@ rm -rf /home/openwrt/package/base-files/files/etc/board.d/99-default_network
 cp -rf /home/OpenWrt-Auto/file/99-default_network /home/openwrt/package/base-files/files/etc/board.d/
 
 echo "复制编译配置文件..."
-
+cp -rf /home/OpenWrt-Auto/file/.config /home/openwrt/
 
 # 执行脚本
 echo "定位到 OpenWrt 工作目录：/home/openwrt"
