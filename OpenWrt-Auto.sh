@@ -19,7 +19,8 @@ else
 fi
 
 echo "安装一些编译要用的包..." | tee -a /home/OpenWrt-Auto/log.txt
-dnf -y install git perl wget rsync bzip2 patch tar ncurses-devel epel-release
+dnf -y install git perl wget rsync bzip2 patch tar ncurses-devel
+# dnf -y install epel-release
 # dnf -y install screen
 
 echo "克隆 OpenWrt 源码..." | tee -a /home/OpenWrt-Auto/log.txt
