@@ -37,7 +37,8 @@ sh /home/OpenWrt-Auto/clean.sh
  - 添加 挂载功能
  - 添加三方 Docker
  - eth0 默认 WAN 口
- - 调整时区为 Asia/Shanghai      
+ - 调整时区为 Asia/Shanghai
+ - 更改 ntp 服务地址      
 
 
 # 使用的项目
