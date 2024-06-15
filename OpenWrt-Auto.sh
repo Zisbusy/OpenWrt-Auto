@@ -63,6 +63,7 @@ cp -rf /home/OpenWrt-Auto/file/99-default_network /home/openwrt/package/base-fil
 echo "设置：时区 Asia/Shanghai、NTP 服务器..." | tee -a /home/OpenWrt-Auto/log.txt
 rm -rf /home/openwrt/package/base-files/files/bin/config_generate
 cp -rf /home/OpenWrt-Auto/file/config_generate /home/openwrt/package/base-files/files/bin/
+chmod 755 /home/openwrt/package/base-files/files/bin/config_generate
 
 echo "复制编译配置文件..." | tee -a /home/OpenWrt-Auto/log.txt
 cp -rf /home/OpenWrt-Auto/file/.config /home/openwrt/
