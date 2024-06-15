@@ -1,0 +1,27 @@
+// 目标机型
+Target System (x86)
+Subrtarget (x86_64)
+Target Profile (Generic x86/64)
+
+// 镜像大小
+Target Images -> Kernel partition size (in MiB) -> 32
+Target Images -> Root filesystem partition size (in MiB) -> 500
+
+// 挂载点/dnsmasqfull
+Base system  ->  block-mount
+Base system  ->  blockd
+Base system  ->  取消 dnsmasq 使用 dnsmasqfull
+
+// Web 管理页面
+LUCI -> Collections -> Luci
+
+// 添加中文
+LUCI -> Modules -> Translations -> Chinese Simplified (zh_Hans)
+
+// 添加应用
+LUCI -> Applications -> luci-app-diskman
+LUCI -> Applications -> luci-app-dockerman
+LUCI -> Applications -> luci-app-upnp
+
+// 添加主题
+LUCI -> Theme -> Luci-theme-argon
