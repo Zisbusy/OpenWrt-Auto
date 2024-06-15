@@ -36,7 +36,8 @@ sh /home/OpenWrt-Auto/clean.sh
  - 添加 磁盘管理 Diskman      
  - 添加 挂载功能
  - 添加三方 Docker
- - eth0 默认 WAN 口      
+ - eth0 默认 WAN 口
+ - 调整时区为 Asia/Shanghai      
 
 
 # 使用的项目
