@@ -59,6 +59,10 @@ echo "设置：WAN口绑定 eth0、LAN口绑定 eth1..." | tee -a /home/OpenWrt-
 rm -rf /home/openwrt/package/base-files/files/etc/board.d/99-default_network
 cp -rf /home/OpenWrt-Auto/file/99-default_network /home/openwrt/package/base-files/files/etc/board.d/
 
+echo "设置：时区 Asia/Shanghai、NTP 服务器..." | tee -a /home/OpenWrt-Auto/log.txt
+rm -rf /home/openwrt/package/base-files/files/bin/config_generate
+cp -rf /home/OpenWrt-Auto/file/config_generate /home/openwrt/package/base-files/files/bin/
+
 echo "复制编译配置文件..." | tee -a /home/OpenWrt-Auto/log.txt
 cp -rf /home/OpenWrt-Auto/file/.config /home/openwrt/
 
