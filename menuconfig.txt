@@ -25,3 +25,6 @@ LUCI -> Applications -> luci-app-upnp
 
 // 添加主题
 LUCI -> Theme -> Luci-theme-argon
+
+// 内核支持EXT4      
+Global Build settings -> Kernel build options  -> Ext4 Security Labels
