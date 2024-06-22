@@ -32,7 +32,7 @@ sh /home/OpenWrt-Auto/clean.sh
  - 基础上网功能（默认 OpenWrt 配置）
  - 默认支持 ipv6      
  - 添加 UPNP
- - 添加主题 Argon      
+ - 添加主题 Argon（更改、并修复一些样式问题）      
  - 添加 磁盘管理 Diskman      
  - 添加 挂载功能
  - 添加三方 Docker
