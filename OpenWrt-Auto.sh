@@ -43,8 +43,15 @@ git clone https://github.com/jerrykuku/luci-theme-argon.git
 echo "合并主题修改..." | tee -a /home/OpenWrt-Auto/log.txt
 rm -rf /home/openwrt/package/luci-theme-argon/luasrc/view/themes/argon/footer_login.htm
 rm -rf /home/openwrt/package/luci-theme-argon/luasrc/view/themes/argon/footer.htm
+rm -rf /home/openwrt/package/luci-theme-argon/htdocs/luci-static/argon/img/bg1.jpg
+
 cp -rf /home/OpenWrt-Auto/file/argon/footer_login.htm /home/openwrt/package/luci-theme-argon/luasrc/view/themes/argon/
 cp -rf /home/OpenWrt-Auto/file/argon/footer.htm /home/openwrt/package/luci-theme-argon/luasrc/view/themes/argon/
+cp -rf /home/OpenWrt-Auto/file/argon/bg1.jpg /home/openwrt/package/luci-theme-argon/htdocs/luci-static/argon/img/
+
+chmod 644 /home/openwrt/package/luci-theme-argon/luasrc/view/themes/argon/footer_login.htm
+chmod 644 /home/openwrt/package/luci-theme-argon/luasrc/view/themes/argon/footer.htm
+chmod 644 /home/openwrt/package/luci-theme-argon/htdocs/luci-static/argon/img/bg1.jpg
 
 echo "安装应用 Luci-app-diskman..." | tee -a /home/OpenWrt-Auto/log.txt
 git clone https://github.com/lisaac/luci-app-diskman.git
