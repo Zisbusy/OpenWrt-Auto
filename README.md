@@ -2,12 +2,12 @@
 基于官方 OpenWrt 编译 x86 固件
 自动化编译脚本，环境部署到编译完成。      
 
-# 脚本环境     
+## 脚本环境     
 基于 Rocky Linux 编写，使用 Root 账号进行编译。      
 高度理想化，无任何错误判断，需自行观察是否有错误日志。      
 需要自备代理软件，并修改脚本内 192.168.10.10 的地址（中国大陆地区以外的网络环境可以直接取消代理）
 
-# 如何使用
+## 如何使用
 执行下面代码
 ```shell
 dnf -y install git
@@ -27,7 +27,7 @@ chmod 777 /home/OpenWrt-Auto/clean.sh
 sh /home/OpenWrt-Auto/clean.sh
 ```
 
-# 说明  
+## 说明  
 本固件高度自定义，贴近个人使用场景。      
  - 基础上网功能（默认 OpenWrt 配置）
  - 默认支持 ipv6      
@@ -42,7 +42,7 @@ sh /home/OpenWrt-Auto/clean.sh
  - 更改 默认网关 192.168.10.1      
 
 
-# 使用的项目
+## 使用的项目
 
 Argon **https://github.com/jerrykuku/luci-theme-argon**      
 Docker **https://github.com/lisaac/luci-app-dockerman**      
