@@ -29,17 +29,19 @@ sh /home/OpenWrt-Auto/clean.sh
 
 ## 说明  
 本固件高度自定义，贴近个人使用场景。      
- - 基础上网功能（默认 OpenWrt 配置）
+ - 基础上网功能（默认 OpenWrt 配置）       
  - 默认支持 ipv6      
- - 添加 UPNP
+ - 添加 UPNP      
  - 添加主题 Argon（更改、并修复一些样式问题）      
- - 添加 磁盘管理 Diskman      
- - 添加 挂载功能
- - 添加三方 Docker
- - eth0 默认 WAN 口
- - 调整时区为 Asia/Shanghai
- - 更改 ntp 服务地址
- - 更改 默认网关 192.168.10.1      
+ - 调整分区大小 32m、400m      
+ - 添加磁盘管理 Diskman      
+ - 添加挂载功能
+ - 支持 ext4 分区      
+ - 添加三方 Docker      
+ - 调整 eth0 默认 WAN 口      
+ - 调整时区为 Asia/Shanghai      
+ - 更改 ntp 服务地址      
+ - 更改默认网关 192.168.10.1      
 
 
 ## 使用的项目
