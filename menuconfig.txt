@@ -28,3 +28,6 @@ LUCI -> Theme -> Luci-theme-argon
 
 // 内核支持EXT4
 Global Build settings -> Kernel build options  -> Ext4 Security Labels
+
+// Docker 支持 macvlan
+Utilities -> dockerd -> Network -> Includes macvlan kernel modules
