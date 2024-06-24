@@ -37,7 +37,8 @@ sh /home/OpenWrt-Auto/clean.sh
  - 添加磁盘管理 Diskman      
  - 添加挂载功能
  - 支持 ext4 分区      
- - 添加三方 Docker      
+ - 添加三方 Docker
+ - Docker 支持 macvlan      
  - 调整 eth0 默认 WAN 口      
  - 调整时区为 Asia/Shanghai      
  - 更改 ntp 服务地址      
