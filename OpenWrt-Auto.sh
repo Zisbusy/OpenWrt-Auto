@@ -57,9 +57,6 @@ chmod 644 /home/openwrt/package/luci-theme-argon/luasrc/view/themes/argon/footer
 chmod 644 /home/openwrt/package/luci-theme-argon/htdocs/luci-static/argon/img/bg1.jpg
 chmod 644 /home/openwrt/package/luci-theme-argon/htdocs/luci-static/argon/css/dark.css
 
-echo "安装应用 Luci-app-diskman..." | tee -a /home/OpenWrt-Auto/log.txt
-git clone https://github.com/lisaac/luci-app-diskman.git
-
 echo "设置：WAN口绑定 eth0、LAN口绑定 eth1..." | tee -a /home/OpenWrt-Auto/log.txt
 rm -rf /home/openwrt/package/base-files/files/etc/board.d/99-default_network
 cp -rf /home/OpenWrt-Auto/file/99-default_network /home/openwrt/package/base-files/files/etc/board.d/
