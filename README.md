@@ -34,8 +34,6 @@ sh /home/OpenWrt-Auto/clean.sh
  - 添加 UPNP      
  - 添加主题 Argon（更改、并修复一些样式问题）      
  - 调整分区大小 32m、400m      
- - 添加磁盘管理 Diskman      
- - 添加挂载功能
  - 支持 ext4 分区      
  - 调整 eth0 默认 WAN 口      
  - 调整时区为 Asia/Shanghai      
