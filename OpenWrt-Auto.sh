@@ -60,13 +60,6 @@ chmod 644 /home/openwrt/package/luci-theme-argon/htdocs/luci-static/argon/css/da
 echo "安装应用 Luci-app-diskman..." | tee -a /home/OpenWrt-Auto/log.txt
 git clone https://github.com/lisaac/luci-app-diskman.git
 
-echo "安装应用 DockerMan..." | tee -a /home/OpenWrt-Auto/log.txt
-git clone https://github.com/lisaac/luci-app-dockerman.git
-echo "删除官方 DockerMan..." | tee -a /home/OpenWrt-Auto/log.txt
-rm -rf /home/openwrt/package/feeds/luci/luci-app-dockerman
-echo "复制新的 DockerMan..." | tee -a /home/OpenWrt-Auto/log.txt
-cp -rf /home/openwrt/package/luci-app-dockerman/applications/luci-app-dockerman /home/openwrt/package/feeds/luci/luci-app-dockerman
-
 echo "设置：WAN口绑定 eth0、LAN口绑定 eth1..." | tee -a /home/OpenWrt-Auto/log.txt
 rm -rf /home/openwrt/package/base-files/files/etc/board.d/99-default_network
 cp -rf /home/OpenWrt-Auto/file/99-default_network /home/openwrt/package/base-files/files/etc/board.d/
