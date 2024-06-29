@@ -46,5 +46,4 @@ sh /home/OpenWrt-Auto/clean.sh
 ## 使用的项目
 
 Argon **https://github.com/jerrykuku/luci-theme-argon**      
-Docker **https://github.com/lisaac/luci-app-dockerman**      
 Diskman **https://github.com/lisaac/luci-app-diskman**      
