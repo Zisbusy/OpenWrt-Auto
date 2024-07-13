@@ -7,5 +7,5 @@ curl -sSL https://raw.githubusercontent.com/Zisbusy/openwrt-auto/main/start.sh -
 
 
 ## 加速地址
-curl -sSL https://mirror.ghproxy.com/https://raw.githubusercontent.com/Zisbusy/immortalwrt-auto/main/start.sh -o start.sh && sudo bash start.sh erx
-curl -sSL https://mirror.ghproxy.com/https://raw.githubusercontent.com/Zisbusy/immortalwrt-auto/main/start.sh -o start.sh && sudo bash start.sh x86
+curl -sSL https://mirror.ghproxy.com/https://raw.githubusercontent.com/Zisbusy/openwrt-auto/main/start.sh -o start.sh && sudo bash start.sh erx
+curl -sSL https://mirror.ghproxy.com/https://raw.githubusercontent.com/Zisbusy/openwrt-auto/main/start.sh -o start.sh && sudo bash start.sh x86
