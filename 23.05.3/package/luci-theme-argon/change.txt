@@ -1,0 +1,7 @@
+1.修改背景图片
+/luci-theme-argon/htdocs/luci-static/argon/img/bg1.jpg
+2.修改底部文案
+/luci-theme-argon/luasrc/view/themes/argon/footer_login.htm
+/luci-theme-argon/luasrc/view/themes/argon/footer.htm
+3.修改夜间模式磁盘管理弹窗背景颜色
+/luci-theme-argon/htdocs/luci-static/argon/css/dark.css

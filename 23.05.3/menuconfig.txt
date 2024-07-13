@@ -1,0 +1,24 @@
+make menuconfig
+
+// 目标机型 erx
+Target System (MediaTek Ralink MIPS)
+Subrtarget (MT7621 based boards)
+Target Profile (Ubiquiti EdgeRouter X)
+
+// 目标机型 x86
+Target System (x86)
+Subrtarget (x86_64)
+Target Profile (Generic x86/64)
+
+// 镜像大小 x86
+Target Images -> Kernel partition size (in MiB) -> 32
+Target Images -> Root filesystem partition size (in MiB) -> 160
+
+// 添加应用
+LUCI -> Applications -> luci-app-upnp
+
+// 添加主题
+LUCI -> Theme -> Luci-theme-argon
+
+// 内核支持EXT4 x86
+Global Build settings -> Kernel build options  -> Ext4 Security Labels
