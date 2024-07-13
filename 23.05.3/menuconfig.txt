@@ -14,6 +14,15 @@ Target Profile (Generic x86/64)
 Target Images -> Kernel partition size (in MiB) -> 32
 Target Images -> Root filesystem partition size (in MiB) -> 160
 
+// dnsmasqfull
+Base system  ->  取消 dnsmasq 使用 dnsmasqfull
+
+// Web 管理页面
+LUCI -> Collections -> Luci
+
+// 添加中文
+LUCI -> Modules -> Translations -> Chinese Simplified (zh_Hans)
+
 // 添加应用
 LUCI -> Applications -> luci-app-upnp
 
