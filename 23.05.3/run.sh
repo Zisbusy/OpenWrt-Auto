@@ -62,13 +62,6 @@ rm -rf /home/openwrt/package/base-files/files/etc/board.d/99-default_network
 cp -rf /home/openwrt-auto/23.05.3/config/99-default_network /home/openwrt/package/base-files/files/etc/board.d/
 fi
 
-echo "复制编译配置文件..." | tee -a /home/openwrt-auto/log.txt
-if [ "$1" == "x86" ] ;then
-cp -rf /home/openwrt-auto/23.05.3/config/x86/.config /home/openwrt/
-fi
-if [ "$1" == "erx" ] ;then
-cp -rf /home/openwrt-auto/23.05.3/config/erx/.config /home/openwrt/
-fi
 
 # 执行脚本
 echo "定位到 OpenWrt 工作目录：/home/openwrt" | tee -a /home/openwrt-auto/log.txt
@@ -80,7 +73,7 @@ export FORCE_UNSAFE_CONFIGURE=1
 echo "获取 CPU 核心数" | tee -a /home/openwrt-auto/log.txt
 num=`cat /proc/cpuinfo |grep processor  | wc -l` 
 echo "开始编译 - "$num"线程" | tee -a /home/openwrt-auto/log.txt
-make -j$num V=s
+# make -j$num V=s
 
 # 计算时间并输出
 endTime=$(date +%Y%m%d-%H:%M:%S)
