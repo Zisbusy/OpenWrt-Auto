@@ -48,6 +48,7 @@ echo "安装主题 Argon..." | tee -a /home/openwrt-auto/log.txt
 cp -rf /home/openwrt-auto/23.05.3/package/luci-theme-argon/ /home/openwrt/package/
 
 echo "删除访问主页跳转提示文案..." | tee -a /home/openwrt-auto/log.txt
+rm -rf /home/openwrt/feeds/luci/modules/luci-base/root/www/index.html
 cp -rf /home/openwrt-auto/23.05.3/package/luci/index.html /home/openwrt/feeds/luci/modules/luci-base/root/www/
 
 echo "设置：时区 Asia/Shanghai、NTP 服务器、默认网关..." | tee -a /home/openwrt-auto/log.txt
