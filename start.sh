@@ -16,5 +16,5 @@ echo "克隆 openwrt-auto 源码..."
 git clone https://github.com/Zisbusy/openwrt-auto.git /home/openwrt-auto
 
 echo "执行自动化脚本..."
-chmod 777 /home/openwrt-auto/23.05.2/run.sh
-sh /home/openwrt-auto/23.05.2/run.sh $1
+chmod 777 /home/openwrt-auto/23.05.3/run.sh
+sh /home/openwrt-auto/23.05.3/run.sh $1
