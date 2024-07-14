@@ -54,10 +54,10 @@ cp -rf /home/openwrt-auto/23.05.3/package/luci/index.html /home/openwrt/feeds/lu
 echo "设置：时区 Asia/Shanghai、NTP 服务器、默认网关、主机名......" | tee -a /home/openwrt-auto/log.txt
 rm -rf /home/openwrt/package/base-files/files/bin/config_generate
 if [ "$1" == "x86" ] ;then
-cp -rf /home/openwrt/23.05.3/config/x86/config_generate /home/openwrt/package/base-files/files/bin/
+cp -rf /home/openwrt-auto/23.05.3/config/x86/config_generate /home/openwrt/package/base-files/files/bin/
 fi
 if [ "$1" == "erx" ] ;then
-cp -rf /home/openwrt/23.05.3/config/erx/config_generate /home/openwrt/package/base-files/files/bin/
+cp -rf /home/openwrt-auto/23.05.3/config/erx/config_generate /home/openwrt/package/base-files/files/bin/
 fi
 chmod 755 /home/openwrt/package/base-files/files/bin/config_generate
 
