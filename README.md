@@ -53,11 +53,6 @@ sysupgrade -F -n 文件名
 允许nas的IPV6通过防火墙：网络-防火墙-通信规则      
 IPv6-Forward      
 ::2e0:4cff:fe32:6195/::ffff:ffff:ffff:ffff      
-DNS端口转发：网络-防火墙-端口转发      
-DNS-IPV4-Forward 192.168.10.1 端口1053      
-高级设置外部 IP 地址 192.168.10.1      
-DNS-IPV6-Forward fd15:703f:dc74::1 端口1053      
-高级设置外部 IP 地址 fd15:703f:dc74::1      
 
 ## 使用的项目
 
