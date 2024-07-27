@@ -25,6 +25,7 @@ LUCI -> Modules -> Translations -> Chinese Simplified (zh_Hans)
 
 // 添加应用
 LUCI -> Applications -> luci-app-upnp
+Network  -> adguardhome
 
 // 添加主题
 LUCI -> Theme -> Luci-theme-argon
