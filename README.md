@@ -35,7 +35,7 @@ sysupgrade -F -n 文件名
  - 添加 UPNP
  - 取消 dnsmasq 使用 dnsmasqfull
  - 添加主题 Argon（更改、并修复一些样式问题）
- - 调整分区大小 32m、160m
+ - 调整分区大小 32m、160m（x86）
  - 支持 ext4 分区（x86）
  - 调整 eth0 默认 WAN 口（x86）
  - 调整时区为 Asia/Shanghai
