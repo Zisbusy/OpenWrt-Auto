@@ -32,7 +32,7 @@ sysupgrade -F -n 文件名
 本固件高度自定义，贴近个人使用场景。      
  - 基础上网功能（默认 OpenWrt 配置）       
  - 默认支持 ipv6
- - 添加 UPNP
+ - 添加 UPNP 修改默认请求地址为网关地址
  - 取消 dnsmasq 使用 dnsmasqfull
  - 添加主题 Argon（更改、并修复一些样式问题）
  - 调整分区大小 32m、160m（x86）
